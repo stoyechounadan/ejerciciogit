@@ -1,0 +1,83 @@
+div{
+border: 2px solid black;
+border-radius: 3px;
+padding: 3px;
+margin: 3px;
+}
+
+
+#calculadora{
+
+display: grid;
+grid-template-columns: 50px 50px 50px 50px;
+grid-template-rows: auto;
+grid-template-areas: "visor visor visor visor"
+"siete ocho nueve entre"
+"cuatro cinco seis por"
+"uno dos tres menos"
+"cero resultado resultado mas"
+}
+
+#visor{
+  grid-area: visor;
+}
+
+#uno{
+grid-area: uno;
+}
+
+#dos{
+grid-area: dos;
+}
+
+#tres{
+grid-area: tres;
+}
+
+#cuatro{
+grid-area: cuatro;
+}
+
+#cinco{
+grid-area: cinco;
+}
+
+#seis{
+grid-area: seis;
+}
+
+#siete{
+grid-area: siete;
+}
+
+#ocho{
+grid-area: ocho;
+}
+
+#nueve{
+grid-area: nueve;
+}
+
+#cero{
+grid-area: cero;
+}
+
+#mas{
+grid-area: mas;
+}
+
+#menos{
+grid-area: menos;
+}
+
+#por{
+grid-area: por;
+}
+
+#entre{
+grid-area: entre;
+}
+
+#resultado{
+grid-area: resultado;
+}
