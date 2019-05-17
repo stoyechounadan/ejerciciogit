@@ -4,7 +4,10 @@ border-radius: 3px;
 padding: 3px;
 margin: 3px;
 }
-
+#contenedor{
+  text-align: center;
+  display: inline-block;
+}
 
 #calculadora{
 
